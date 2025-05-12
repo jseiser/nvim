@@ -15,6 +15,7 @@ return {
     config = function()
         require('lint').linters_by_ft = {
             terraform = { 'tflint' },
+            dockerfile = { "hadolint" },
         }
     end
 }
