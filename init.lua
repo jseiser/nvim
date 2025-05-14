@@ -10,7 +10,7 @@ vim.lsp.enable({
     "terraformls",
     "docker_compose_language_service",
     "dockerls",
-    "ruff",
+    "basedpyright",
 })
 
 vim.diagnostic.config({
