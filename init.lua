@@ -4,16 +4,17 @@ require("config.options")
 require("config.filetype")
 
 vim.lsp.enable({
-    "yamlls",
-    "gitlab_ci_ls",
-    "lua_ls",
-    "terraformls",
-    "docker_compose_language_service",
-    "dockerls",
-    "basedpyright",
+	"yamlls",
+	"gitlab_ci_ls",
+	"lua_ls",
+	"terraformls",
+	"docker_compose_language_service",
+	"dockerls",
+	"basedpyright",
+	"helm_ls",
 })
 
 vim.diagnostic.config({
-    underline = true,
-    virtual_text = true,
+	underline = true,
+	virtual_text = true,
 })
